@@ -65,4 +65,5 @@ const About = () => {
 };
 
 // Wrap as a Higher Order Component before exporting
+// "about" is the id/key used for the navbar navigation
 export default SectionWrapper(About, "about");

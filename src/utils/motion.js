@@ -1,3 +1,5 @@
+// This file holds all the load-in animation variations
+
 export const textVariant = (delay) => {
   return {
     hidden: {

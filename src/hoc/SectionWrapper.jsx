@@ -1,6 +1,8 @@
+// framer-motion is an animation library
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
+// staggerContainer is the specific animation variant used in this file
 import { staggerContainer } from "../utils/motion";
 
 // Will wrap all major sections with this Higher Order Component
