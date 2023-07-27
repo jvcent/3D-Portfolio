@@ -239,20 +239,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Machine Learning Research Paper",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Investigated the feasibility of utilizing Python's Sci-kit Learn Machine Learning algorithms to predict future stock prices and generate profits for individual retail investors. Data cleaning with Pandas, Numpy.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Sci-kit Learn",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Pandas",
         color: "pink-text-gradient",
       },
     ],
