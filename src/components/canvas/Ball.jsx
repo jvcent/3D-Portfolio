@@ -1,9 +1,66 @@
-import React from 'react'
+import React, { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
+import {
+  Decal,
+  Float,
+  OrbitControls,
+  Preload,
+  useTexture,
+} from "@react-three/drei";
 
-const Ball = () => {
+// provides loading percentages are ball models are being rendered
+import CanvasLoader from "../Loader";
+
+const Ball = (props) => {
+  // destructure the texture for each ball
+  const [decal] = useTexture([props.imgUrl]);
+
   return (
-    <div>Ball</div>
-  )
-}
+    // <mesh> used instead of <div> for three.js elements
+    // Mesh contents: Lighting & Primitive 3D object
+    // icosahedron is the shape of the model
+    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
+      <ambientLight intensity={0.25} />
+      <directionalLight position={[0, 0, 0.05]} />
+      <mesh castShadow receiveShadow scale={2.75}>
+        <icosahedronGeometry args={[1, 1]} />
+        <meshStandardMaterial
+          color="#fff8eb"
+          polygonOffset
+          polygonOffsetFactor={-5}
+          flatShading
+        />
+        <Decal // configure textures here
+          position={[0, 0, 1]}
+          rotation={[2 * Math.PI, 0, 6.25]} // flips it when image icons are mirrored
+          scale={1}
+          map={decal}
+          flatShading
+        />
+      </mesh>
+    </Float>
+  );
+};
 
-export default Ball
+const BallCanvas = ({ icon }) => {
+  return (
+    // Suspense provides loader for when model is still rendering
+    // Must modify <CanvasLoader> to prevent crashing when reloading site
+    <Canvas
+      frameloop="demand"
+      dpr={[1, 2]}
+      gl={{ preserveDrawingBuffer: true }}
+    >
+      <Suspense fallback={<CanvasLoader />}>
+        <OrbitControls // allows user to rotate model freely
+          enableZoom={false}
+        />
+        <Ball imgUrl={icon} />
+      </Suspense>
+
+      <Preload all />
+    </Canvas>
+  );
+};
+
+export default BallCanvas;

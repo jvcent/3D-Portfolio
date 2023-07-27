@@ -6,17 +6,17 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
+  python,
+  java,
+  c,
+  ruby,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
   iai,
   powergen,
   statistics_indo,
@@ -75,28 +75,28 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "C",
+    icon: c,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "Three JS",
@@ -111,8 +111,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Ruby",
+    icon: ruby,
   },
 ];
 
@@ -139,7 +139,7 @@ const experiences = [
       "Maintaining the company website and implementing UI/UX improvements.",
       "Implementing new website features and functionality using HTML + CSS.",
       "Implementing responsive design on small devices and ensuring cross-browser compatibility.",
-      "Participating in software reviews and providing constructive feedback to other developers.",
+      "Conducting sentiment analysis by webscraping social media & online news articles using Python.",
     ],
   },
   {

@@ -2,6 +2,7 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
+// provides loading percentages as computer model is being rendered
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
