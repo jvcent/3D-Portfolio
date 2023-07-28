@@ -26,9 +26,9 @@ import sds from "./company/sds.svg";
 import powergen from "./company/powergen.png";
 import statistics_indo from "./company/statistics_indo.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import markus from "./markus.png";
+import courseography from "./courseography.png";
+import mlpaper from "./mlpaper.jpeg";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   sds,
   powergen,
   statistics_indo,
-  carrent,
-  jobit,
-  tripguide,
+  markus,
+  courseography,
+  mlpaper,
 };

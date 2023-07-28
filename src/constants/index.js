@@ -21,9 +21,9 @@ import {
   powergen,
   statistics_indo,
   sds,
-  carrent,
-  jobit,
-  tripguide,
+  markus,
+  courseography,
+  mlpaper,
   threejs,
 } from "../assets";
 
@@ -197,30 +197,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MarkUs",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application for the submission and grading of student assignments. Provides TAs with simple tools for giving high quality feedback to students, as well as a straight-forward interface for students to submit work.",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Ruby",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: markus,
+    source_code_link: "https://github.com/MarkUsProject/Markus",
   },
   {
-    name: "Job IT",
+    name: "Courseography",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A set of interactive tools to aid in navigating prerequisite chains, program requirements, and term-by-term offerings by graphically presenting course and scheduling information.",
     tags: [
       {
         name: "react",
@@ -235,11 +235,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: courseography,
+    source_code_link: "https://github.com/courseography/courseography",
   },
   {
-    name: "Machine Learning Research Paper",
+    name: "ML Research Paper",
     description:
       "Investigated the feasibility of utilizing Python's Sci-kit Learn Machine Learning algorithms to predict future stock prices and generate profits for individual retail investors. Data cleaning with Pandas, Numpy.",
     tags: [
@@ -256,8 +256,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: mlpaper,
+    source_code_link:
+      "https://github.com/jvcent/Research-/blob/main/ML%20Stocks%20Research%20Paper.pdf",
   },
 ];
 
