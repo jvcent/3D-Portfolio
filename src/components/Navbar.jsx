@@ -27,7 +27,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-11 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Jonathan Vincentius &nbsp;
             <span className="sm:block hidden"> | Portfolio</span>

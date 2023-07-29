@@ -37,6 +37,10 @@ export const navLinks = [
     title: "Experiences",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -220,15 +224,15 @@ const projects = [
       "A set of interactive tools to aid in navigating prerequisite chains, program requirements, and term-by-term offerings by graphically presenting course and scheduling information.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Haskell",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "SCSS",
         color: "pink-text-gradient",
       },
     ],
