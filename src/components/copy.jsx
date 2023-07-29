@@ -41,23 +41,20 @@ const Contact = () => {
   // template id: template_kzkaduw
   // public key: QLsvDZOIE5IJaKO57
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-
     emailjs
       .send(
         "service_5gmnevv",
         "template_kzkaduw",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Jon",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "jonathanvincentius@gmail.com",
           message: form.message,
         },
         "QLsvDZOIE5IJaKO57"
       )
-      // .then function to execute form sending
+      // .then function to execute everything
       .then(
         () => {
           setLoading(false);
