@@ -7,4 +7,5 @@ Created using a React Framework and the following technologies:
 
 ![image](https://github.com/jvcent/3D-Portfolio/assets/117528376/eadc4c00-8a17-4617-9542-8856dc006b3a)
 
+Recreate the node_modules folder via packages
 To start the development server in watch mode, run <code>npm run dev</code> in the terminal
