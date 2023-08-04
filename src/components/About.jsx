@@ -51,7 +51,7 @@ const About = () => {
         I'm a software developer from the University of Toronto, studying
         Computer Science & Computational Cognitive Science. I have experience in
         Python, Java, Javascript, and expertise in frameworks like React, Node,
-        and Three.js. I have a passion for creating aesethetic and user-friendly
+        and Three.js. I have a passion for creating aesthetic and user-friendly
         projects that utilize smart code to solve real-world problems
       </motion.p>
 
