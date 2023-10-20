@@ -122,7 +122,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Back-End Development Intern",
+    title: "Full-Stack Development Intern",
     company_name: "Powergen Software",
     icon: powergen,
     iconBg: "#383E56",
@@ -140,8 +140,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2023 - August 2023",
     points: [
-      "Maintaining the company website and implementing UI/UX improvements.",
-      "Implementing new website features and functionality using HTML + CSS.",
+      "Maintained & Improved the main website’s UI/UX to meet modern accessibility standards for the 2000+ government employees that use it daily with React, Figma. ",
       "Implementing responsive design on small devices and ensuring cross-browser compatibility.",
       "Conducting sentiment analysis by webscraping social media & online news articles using Python.",
     ],
@@ -154,7 +153,7 @@ const experiences = [
     date: "September 2023 - April 2024",
     points: [
       "Web development using HTML, CSS, Javascript for MOOClet software framework used in Mental Health America treatment modules.",
-      "Assisted in optimizing the Statistically Considerate Bandit Algorithms and other statistical tools used in the Lab.",
+      "Optimized the Statistically Considerate Bandit Algorithms & other statistical tools used in the Lab to improve productivity and streamline data pipelines by 43%",
       "Assisted Professor & Graduates students in documentation, note-taking, & survey development.",
     ],
   },
