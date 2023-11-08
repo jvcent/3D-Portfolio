@@ -26,8 +26,8 @@ import sds from "./company/sds.svg";
 import powergen from "./company/powergen.png";
 import statistics_indo from "./company/statistics_indo.svg";
 
-import markus from "./markus.png";
-import courseography from "./courseography.png";
+import argumentor from "./argumentor.jpg"
+import shopwise from "./shopwise.png"
 import mlpaper from "./mlpaper.jpeg";
 
 export {
@@ -56,7 +56,7 @@ export {
   sds,
   powergen,
   statistics_indo,
-  markus,
-  courseography,
+  argumentor,
+  shopwise,
   mlpaper,
 };

@@ -21,8 +21,8 @@ import {
   powergen,
   statistics_indo,
   sds,
-  markus,
-  courseography,
+  argumentor,
+  shopwise,
   mlpaper,
   threejs,
 } from "../assets";
@@ -146,14 +146,14 @@ const experiences = [
     ],
   },
   {
-    title: "Research Assistant",
+    title: "Artificial Intelligence Research Assistant",
     company_name: "Intelligent Adaptive Interventions Laboratory",
     icon: iai,
     iconBg: "#383E56",
     date: "September 2023 - April 2024",
     points: [
-      "Web development using HTML, CSS, Javascript for MOOClet software framework used in Mental Health America treatment modules.",
-      "Optimized the Statistically Considerate Bandit Algorithms & other statistical tools used in the Lab to improve productivity and streamline data pipelines by 43%",
+      "Investigated the impact of human-AI interactions on human cognition: creativity, memory, logical thinking, etc",
+      "Revamped the UI/UX of the personalized LLM used to support Computer Science learning for 1000+ undergraduates at UofT Mississauga campus, increased conversion & bounce rate by 48%",
       "Assisted Professor & Graduates students in documentation, note-taking, & survey development.",
     ],
   },
@@ -197,46 +197,46 @@ const testimonials = [
 
 const projects = [
   {
-    name: "MarkUs",
+    name: "ArguMentor",
     description:
-      "Web application for the submission and grading of student assignments. Provides TAs with simple tools for giving high quality feedback to students, as well as a straight-forward interface for students to submit work.",
+      "Web application that harnesses GPT-4 to simulate real-life debates on user inputted topics. Challenging users to critically evaluate & identify inaccuracies. Providing an innovative way for students of all levels to revise.",
     tags: [
       {
-        name: "Javascript",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "Python",
+        name: "Flask",
         color: "green-text-gradient",
       },
       {
-        name: "Ruby",
+        name: "SQLite",
         color: "pink-text-gradient",
       },
     ],
-    image: markus,
-    source_code_link: "https://github.com/MarkUsProject/Markus",
+    image: argumentor,
+    source_code_link: "https://devpost.com/software/temptalk-pdw2o6",
   },
   {
-    name: "Courseography",
+    name: "ShopWise",
     description:
-      "A set of interactive tools to aid in navigating prerequisite chains, program requirements, and term-by-term offerings by graphically presenting course and scheduling information.",
+      "Web application that web scrapes top 5 products on Amazon, uses integrated GPT-4 to analyze them and their reviews to provide a comprehensive summary of each one’s pros & cons. Configured a Chatbot using the Cohere model that users can engage in conversation with for specific inquiries.",
     tags: [
       {
-        name: "React",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "Haskell",
+        name: "Flask",
         color: "green-text-gradient",
       },
       {
-        name: "SCSS",
+        name: "GPT-4",
         color: "pink-text-gradient",
       },
     ],
-    image: courseography,
-    source_code_link: "https://github.com/courseography/courseography",
+    image: shopwise,
+    source_code_link: "https://devpost.com/software/shopwise-cf75sd",
   },
   {
     name: "ML Research Paper",
