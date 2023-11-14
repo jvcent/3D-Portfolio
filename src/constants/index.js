@@ -157,18 +157,18 @@ const experiences = [
       "Assisted Professor & Graduates students in documentation, note-taking, & survey development.",
     ],
   },
-  {
-    title: "Front-End Web Developer",
-    company_name: "Students Developing Software Team",
-    icon: sds,
-    iconBg: "#E6DEDD",
-    date: "September 2023 - December 2023",
-    points: [
-      "Developing and maintaining an interactive Web application to aid students in course planning.",
-      "Collaborating with cross-functional teams to expand the tool to cover all 700 undergraduate program areas at the University of Toronto.",
-      "Aided in migrating the app's Front-End to React.js, unifying graph viewing and drawing tools, and improving exporting generation.",
-    ],
-  },
+  // {
+  //   title: "Front-End Web Developer",
+  //   company_name: "Students Developing Software Team",
+  //   icon: sds,
+  //   iconBg: "#E6DEDD",
+  //   date: "September 2023 - December 2023",
+  //   points: [
+  //     "Developing and maintaining an interactive Web application to aid students in course planning.",
+  //     "Collaborating with cross-functional teams to expand the tool to cover all 700 undergraduate program areas at the University of Toronto.",
+  //     "Aided in migrating the app's Front-End to React.js, unifying graph viewing and drawing tools, and improving exporting generation.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
