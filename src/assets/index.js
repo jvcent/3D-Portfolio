@@ -23,11 +23,13 @@ import threejs from "./tech/threejs.svg";
 
 import iai from "./company/iai.png";
 import sds from "./company/sds.svg";
+import ncsclogo from "./company/ncsclogo.png";
 import powergen from "./company/powergen.png";
 import statistics_indo from "./company/statistics_indo.svg";
 
 import argumentor from "./argumentor.jpg"
 import shopwise from "./shopwise.png"
+import ncsc from "./ncsc.png";
 import mlpaper from "./mlpaper.jpeg";
 
 export {
@@ -56,7 +58,9 @@ export {
   sds,
   powergen,
   statistics_indo,
+  ncsclogo,
   argumentor,
+  ncsc,
   shopwise,
   mlpaper,
 };

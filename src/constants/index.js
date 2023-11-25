@@ -21,6 +21,8 @@ import {
   powergen,
   statistics_indo,
   sds,
+  ncsc,
+  ncsclogo,
   argumentor,
   shopwise,
   mlpaper,
@@ -157,6 +159,17 @@ const experiences = [
       "Assisted Professor & Graduates students in documentation, note-taking, & survey development.",
     ],
   },
+  {
+    title: "Web Designer",
+    company_name: "New College Student Council",
+    icon: ncsclogo,
+    iconBg: "#FFFFFF",
+    date: "September 2023 - April 2024",
+    points: [
+      "Developed a fully responsive website for the university’s New College students with over 6000 user engagements, complete with software accessibility standards",
+      "Maintained the website to keep it up to date with ongoing events, elections, office hour schedules",
+    ],
+  },
   // {
   //   title: "Front-End Web Developer",
   //   company_name: "Students Developing Software Team",
@@ -237,6 +250,27 @@ const projects = [
     ],
     image: shopwise,
     source_code_link: "https://devpost.com/software/shopwise-cf75sd",
+  },
+  {
+    name: "New College Student Council Website",
+    description:
+      "Website for the University of Toronto New College Student Council, showcasing current events, council members, constitution, etc. Fully responsive and up to date with software accessibility standards. .",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ncsc,
+    source_code_link: "https://newcollegestudentcouncil.netlify.app/",
   },
   {
     name: "ML Research Paper",
