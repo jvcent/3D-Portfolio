@@ -26,6 +26,7 @@ import {
   argumentor,
   shopwise,
   mlpaper,
+  luciddream,
   threejs,
 } from "../assets";
 
@@ -254,7 +255,7 @@ const projects = [
   {
     name: "New College Student Council Website",
     description:
-      "Website for the University of Toronto New College Student Council, showcasing current events, council members, constitution, etc. Fully responsive and up to date with software accessibility standards. .",
+      "Website for the University of Toronto New College Student Council, showcasing current events, council members, constitution, etc. Fully responsive and up to date with software accessibility standards.",
     tags: [
       {
         name: "React.js",
@@ -271,6 +272,27 @@ const projects = [
     ],
     image: ncsc,
     source_code_link: "https://newcollegestudentcouncil.netlify.app/",
+  },
+  {
+    name: "LucidDream.ai",
+    description:
+      "An application designed to bring storytelling and creativity to your fingertips. By simply entering text prompts, users can generate an entire storybook to read, store, share. Code was written in Clean Architecture & adheres to SOLID Principles. ",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GPT-4",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Swing",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: luciddream,
+    source_code_link: "https://github.com/vsahni3/LucidDream.ai",
   },
   {
     name: "ML Research Paper",

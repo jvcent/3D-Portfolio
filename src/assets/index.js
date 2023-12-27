@@ -31,6 +31,7 @@ import argumentor from "./argumentor.jpg"
 import shopwise from "./shopwise.png"
 import ncsc from "./ncsc.png";
 import mlpaper from "./mlpaper.jpeg";
+import luciddream from "./luciddream.png";
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   ncsc,
   shopwise,
   mlpaper,
+  luciddream
 };
