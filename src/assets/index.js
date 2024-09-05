@@ -26,6 +26,8 @@ import sds from "./company/sds.svg";
 import ncsclogo from "./company/ncsclogo.png";
 import powergen from "./company/powergen.png";
 import statistics_indo from "./company/statistics_indo.svg";
+import utmist from "./company/utmist.svg";
+import ea from "./company/ea.png"
 
 import argumentor from "./argumentor.jpg"
 import shopwise from "./shopwise.png"
@@ -59,6 +61,8 @@ export {
   sds,
   powergen,
   statistics_indo,
+  utmist,
+  ea,
   ncsclogo,
   argumentor,
   ncsc,

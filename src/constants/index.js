@@ -20,6 +20,8 @@ import {
   iai,
   powergen,
   statistics_indo,
+  utmist,
+  ea,
   sds,
   ncsc,
   ncsclogo,
@@ -125,42 +127,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Development Intern",
-    company_name: "Powergen Software",
-    icon: powergen,
-    iconBg: "#383E56",
-    date: "April 2023 - June 2023",
-    points: [
-      "Developing real-time web applications using C#, ASP.NET, and SignalR.",
-      "Created REST APIs using PHP, Laravel to connect with MySQL & MSSQL databases.",
-      "Designed aesthetically pleasing UI/UX for mobile applications using FlutterFlow.",
-    ],
-  },
-  {
-    title: "Web Developer Intern",
-    company_name: "Statistics Indonesia",
-    icon: statistics_indo,
-    iconBg: "#E6DEDD",
-    date: "July 2023 - August 2023",
-    points: [
-      "Maintained & Improved the main website’s UI/UX to meet modern accessibility standards for the 2000+ government employees that use it daily with React, Figma. ",
-      "Implementing responsive design on small devices and ensuring cross-browser compatibility.",
-      "Conducting sentiment analysis by webscraping social media & online news articles using Python.",
-    ],
-  },
-  {
-    title: "Artificial Intelligence Research Assistant",
-    company_name: "Intelligent Adaptive Interventions Laboratory",
-    icon: iai,
-    iconBg: "#383E56",
-    date: "September 2023 - April 2024",
-    points: [
-      "Investigated the impact of human-AI interactions on human cognition: creativity, memory, logical thinking, etc",
-      "Revamped the UI/UX of the personalized LLM used to support Computer Science learning for 1000+ undergraduates at UofT Mississauga campus, increased conversion & bounce rate by 48%",
-      "Assisted Professor & Graduates students in documentation, note-taking, & survey development.",
-    ],
-  },
-  {
     title: "Web Designer",
     company_name: "New College Student Council",
     icon: ncsclogo,
@@ -171,6 +137,39 @@ const experiences = [
       "Maintained the website to keep it up to date with ongoing events, elections, office hour schedules",
     ],
   },
+  {
+    title: "University of Toronto - Machine Intelligence Team",
+    company_name: "Computational Social Science Laboratory",
+    icon: utmist,
+    iconBg: "#FFFFFF",
+    date: "September 2023 - April 2024",
+    points: [
+      "Collaborated with engineers & co-founders of tech firms, AI startups to share career insights & tech tools with the University’s Machine Learning community through workshops, conferences, & hackathons",
+      "Reached out to company representatives to secure over 10 000 dollars in sponsorships & funding for events",
+    ],
+  },
+  {
+    title: "Undergraduate Researcher",
+    company_name: "Computational Social Science Laboratory",
+    icon: iai,
+    iconBg: "#FFFFFF",
+    date: "September 2023 - Present",
+    points: [
+      "Designed & developed an experiment interface in React to measure participant’s creative performance (divergent thinking)",
+      "Lead the front-end development of the Maia Chess platform for collecting ML research data using Next.js, Sass",
+    ],
+  },
+  {
+    title: "Technical Artist",
+    company_name: "Electronic Arts",
+    icon: ea,
+    iconBg: "#FFFFFF",
+    date: "May 2024 - August 2024",
+    points: [
+      "Developed & maintained tools to support the production of EA Sports Titles for FY 2025 - FC25, NHL25, UFC6",
+      "Accelerated, augmented, & optimized content creator development workflows"
+    ],
+  }
   // {
   //   title: "Front-End Web Developer",
   //   company_name: "Students Developing Software Team",
