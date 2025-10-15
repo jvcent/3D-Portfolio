@@ -22,6 +22,7 @@ import {
   statistics_indo,
   utmist,
   ea,
+  rbc,
   sds,
   ncsc,
   ncsclogo,
@@ -160,14 +161,25 @@ const experiences = [
     ],
   },
   {
-    title: "Technical Artist",
+    title: "Software Developer",
+    company_name: "Royal Bank of Canada",
+    icon: rbc,
+    iconBg: "#FFFFFF",
+    date: "May 2024 - April 2025",
+    points: [
+      "Developed & maintained operational analytic tools to support Wealth Management Advisors",
+      "Created an internal-docs AI assistant that provides context-aware guidance to boost employee query resolution speed"
+    ],
+  },
+  {
+    title: "Software Developer",
     company_name: "Electronic Arts",
     icon: ea,
     iconBg: "#FFFFFF",
-    date: "May 2024 - August 2024",
+    date: "May 2025 - September 2025",
     points: [
-      "Developed & maintained tools to support the production of EA Sports Titles for FY 2025 - FC25, NHL25, UFC6",
-      "Accelerated, augmented, & optimized content creator development workflows"
+      "Developed Character Customization Interfaces for EA Sports Titles - FC27, MADDEN27, COLLEGE FB27",
+      "Designed & prototyped a full-stack toolchain to automatically convert Figma Designs into Game interfaces"
     ],
   }
   // {

@@ -28,6 +28,7 @@ import powergen from "./company/powergen.png";
 import statistics_indo from "./company/statistics_indo.svg";
 import utmist from "./company/utmist.svg";
 import ea from "./company/ea.png"
+import rbc from "./company/rbc.png"
 
 import argumentor from "./argumentor.jpg"
 import shopwise from "./shopwise.png"
@@ -63,6 +64,7 @@ export {
   statistics_indo,
   utmist,
   ea,
+  rbc,
   ncsclogo,
   argumentor,
   ncsc,
